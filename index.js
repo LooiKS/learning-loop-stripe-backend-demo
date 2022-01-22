@@ -12,7 +12,7 @@ const stripe = require("stripe")(
   "sk_test_51KKbi7DBAz0ESre3Wk6EIdzQTtumwx8I2pjIOiBCm3ZDJOYBYmJFnDPrWETv5XneiqFbUdE4P1zJkGlufMZInNn300AIEyEojg"
 );
 
-const port = 8001;
+const port = process.env.PORT || 5000;
 
 const PRODUCTS_ARR = require("./data/products.json").products;
 const PRODUCTS = {};
