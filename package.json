@@ -1,0 +1,20 @@
+{
+  "name": "learning-loop-stripe-checkout",
+  "version": "1.0.0",
+  "description": "A simple stripe checkout for Learning Loop",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Stripe",
+    "ExpressJS"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "stripe": "^8.199.0"
+  }
+}
