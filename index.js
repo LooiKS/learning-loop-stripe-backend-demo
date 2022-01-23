@@ -16,7 +16,7 @@ const port = process.env.PORT || 5000;
 
 const PRODUCTS_ARR = require("./data/products.json").products;
 const PRODUCTS = {};
-const domain = "https://1oxzn.csb.app";
+const domain = "https://ufdc0.csb.app";
 
 PRODUCTS_ARR.forEach((product) => {
   PRODUCTS[product.id] = product;
